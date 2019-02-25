@@ -8,7 +8,7 @@ def performMath():
     global previous
     equation = ""
     if previous == 0:
-        equation = input("Введите пример:")
+        equation = input("Enter equation:")
     else:
         equation = input(str(previous))
     if equation == 'quit':
